@@ -12,29 +12,29 @@
 	 <h1>SignUp Form</h1>
     <form action="" method="post">
         <label for="name">Name</label><br>
-        <input type="text" id="name" placeholder="Name"><br>
+        <input type="text" id="name" placeholder="Name" required><br>
         <label for="email">Email</label><br>
-        <input type="email" name="" id="email" placeholder="Email"><br><br>
-        <input type="radio" id="gender_m" value="male" name="gender">
+        <input type="email" name="" id="email" placeholder="Email" required><br><br>
+        <input type="radio" id="gender_m" value="male" name="gender" required>
         <label for="gender_m">Male</label><br>
-        <input type="radio" id="gender_f" value="female" name="gender">
+        <input type="radio" id="gender_f" value="female" name="gender" required>
         <label for="gender_f">Female</label><br><br>
         <label for="cars">Choose your car</label><br>
-        <select name="car" id="cars">
+        <select name="car" id="cars" required>
             <option value="" disabled selected hidden>--Please choose an option--</option>
             <option value="BMW">BMW</option>
             <option value="Audi">Audi</option>
             <option value="Mercedez">Mercedez</option>
         </select><br><br>
        <label for="age">Age</label><br>
-       <input type="number" name="age" id="age" placeholder="age"><br><br>
+       <input type="number" name="age" id="age" placeholder="age" required><br><br>
        <label for="dob">DOB</label><br>
-       <input type="date" name="dob" id="dob"><br><br>
+       <input type="date" name="dob" id="dob" required><br><br>
        <label for="tel">Phone Number</label><br>
        <input type="number" name="tel" id="tel" placeholder="xxx-xxx-xxxx"><br><br>
        <label for="password">Password</label><br>
-       <input type="password" id = "password" placeholder="Password"><br><br>
-       <input type="checkbox" name="tos" id="tos">
+       <input type="password" id = "password" placeholder="Password" required><br><br>
+       <input type="checkbox" name="tos" id="tos" required>
        <label for="tos">I agree to the TOS.</label><br><br>
        <button type="submit">Submit</button>
     </form>
